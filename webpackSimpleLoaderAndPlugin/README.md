@@ -1,2 +1,4 @@
-# How-to-write-a-loader-demo
-手把手教你写一个 loader （demo）
+# webpackSimpleLoaderAndPlugin
+一个简单的webpack的loader和plugin
+loader:将引入的html中的hello变成ninhao
+plugin:在生成文件中，创建一个头部字符串：遍历所有编译过的资源文件，对于每个文件名称，都添加一行内容。将这个列表作为一个新的文件资源，插入到 webpack 构建中：
